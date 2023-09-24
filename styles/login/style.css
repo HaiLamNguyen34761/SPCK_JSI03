@@ -30,7 +30,7 @@ img{max-width:100%;}
 html, body{
     font-size: 100%;
 	font-family: 'Montserrat', sans-serif;
-	background:url(../images/Artemis\ &\ Luna.jpg) no-repeat 0px 0px;
+	background:url(../../images/Artemis\ &\ Luna.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	background-attachment:fixed;
 	-webkit-background-size:cover;
