@@ -22,18 +22,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- /css -->
 </head>
 <body>
-<h1 class="w3ls">Register</h1>
+<h1 class="w3ls">Register form</h1>
 <div class="content-w3ls">
 	<div class="content-agile1">
 		<h2 class="agileits1">Teacher's Day</h2>
 		<p class="agileits2">This website is about the things to prepare for the teacher's day.</p>
 	</div>
 	<div class="content-agile2">
-		<form action="#" method="post">
-			<div class="form-control w3layouts"> 
-				<input type="text" id="firstname" name="firstname" placeholder="First Name" title="Please enter your First Name" required="">
-			</div>
-
+		<form class="register-container" id="register-form">
 			<div class="form-control w3layouts">	
 				<input type="email" id="email" name="email" placeholder="mail@example.com" title="Please enter a valid email" required="">
 			</div>
@@ -42,13 +38,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<input type="password" class="lock" name="password" placeholder="Password" id="password1" required="">
 			</div>	
 
-			<div class="form-control agileinfo">	
-				<input type="password" class="lock" name="confirm-password" placeholder="Confirm Password" id="password2" required="">
-			</div>			
 			
 			<input type="submit" class="register" value="Register">
 		</form>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 			window.onload = function () {
 				document.getElementById("password1").onchange = validatePassword;
 				document.getElementById("password2").onchange = validatePassword;
@@ -62,7 +55,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					document.getElementById("password2").setCustomValidity('');	 
 					//empty string means no validation error
 			}
-		</script>
+		</script> -->
 		<p class="wthree w3l">Fast Signup With Your Favourite Social Profile</p>
 		<ul class="social-agileinfo wthree2">
 			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -75,5 +68,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <p class="copyright w3l">© 2017 Official Signup Form. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
 </body>
-<script type="module" src="./js-Firebase/register.js"></script>
+<script type="module" src="./firebase/register.js"></script>
 </html>

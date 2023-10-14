@@ -30,7 +30,7 @@ img{max-width:100%;}
 html, body{
     font-size: 100%;
 	font-family: 'Montserrat', sans-serif;
-	background:url(../../images/Artemis\ &\ Luna.jpg) no-repeat 0px 0px;
+	background:url(../../images/wp2737727.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	background-attachment:fixed;
 	-webkit-background-size:cover;
@@ -153,10 +153,12 @@ body a:hover,body a{
   border-color: #33b5e5;
 }
 .login input[type="email"]:hover 
-.login input[type="password"]:hover
- border-color:#28d;
-  
+.login input[type="password"]:hover{
+    border-color:blueviolet;
 }
+
+  
+
 .login input[type="submit"] {
   background:#33b5e5 ;
   border-color: transparent;
@@ -174,12 +176,6 @@ body a:hover,body a{
 }
 .form .social-icons {
 	font-size:20px;
-}
-.form .social-icons { 
-}
-.second-section{
-	
-
 }
 
 .social-links {
@@ -319,9 +315,6 @@ input[type=submit]:hover {
 	color:#ef4d4d;
 	
 }
-.footer-w3l {
-	
-}
 .footer-w3l p{
 	font-size:14px;
 	letter-spacing:0.5px;
@@ -374,7 +367,7 @@ input[type=submit]:hover {
 .bottom-text p {
     font-size: 12px;
 }
-
+}
 
 .bottom-text p a {
 
@@ -529,7 +522,7 @@ input[type=submit]:hover {
 .social-links {
     margin: 0px 0px 16px 0px;
 }
-
+}
 
 @media only screen and (max-width:414px) {
 .login-title h1 {
@@ -560,6 +553,7 @@ input[type=submit]:hover {
 .social-links i {
     line-height: 28px;
     font-size: 16px;
+}
 }
 
 @media only screen and (max-width:375px) {
@@ -593,5 +587,6 @@ input[type=submit]:hover {
 .login-title h1 {
     font-size: 20px;
 }
+}
 
-/* responsive design */
+}
